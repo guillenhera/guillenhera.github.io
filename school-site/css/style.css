@@ -80,23 +80,23 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: monserrat;
-    src: url(/fonts/montserrat-regular.ttf); format('truetype')
+    font-family: montserrat;
+    src: url(/fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
-    font-style: normal:
+    font-style: normal;
 }
 @font-face {
     font-family: josefinslab;
-    src: url(/fonts/josefinslab-regular.ttf); format('truetype')
+    src: url(/fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
-    font-style: normal:
+    font-style: normal;
 }
 
 
 /* Typography Styles */
 
 html {
-    font-family: montserrat, Arial. sans-serif; 
+    font-family: montserrat, Arial, sans-serif; 
 }
 
 h1, h2 {
@@ -146,7 +146,7 @@ a:link, a:visited {
 }
 
 a:focus, a:hover {
-    text-description: none:
+    text-decoration: none;
 }
 
 /* List Styling */
@@ -179,7 +179,7 @@ nav a {
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    boarder: 0.0625rem solid #33658A;
+    border: 0.0625rem solid #33658A;
 }
 
 nav a:focus, nav a:hover{
